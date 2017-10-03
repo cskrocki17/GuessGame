@@ -24,10 +24,7 @@ do{ //while playAgain == "y"
 			alert("too low");
 		}else if (isNaN (guess)){
 			turns = turns - 1;
-			playAgain = prompt("Type anything in the box to continue");
-			if (playAgain != "y"){
-				alert("enter number not letter")
-			}
+			alert("enter number not letter")
 		}
 	}
 	while (guess != answer);
